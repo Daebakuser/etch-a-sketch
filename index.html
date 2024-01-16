@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <div id="container">
+            <header id="header">
+                <div id="header-text">Etch A Sketch<img src="./img/star.png" alt="An illustration of a star with cartoon features"></div>
+            </header>
+            <div id="grid-container"></div>
+            <div id="tools-container">
+                <div id="buttons-container">
+                    <div id="">
+                        <div id="eraser-button"><span class="text" id="clear-text">Eraser</span></div>
+                        <div  id="clear-button"><span class="text" id="clear-text">Clear</span></div>
+                    </div>
+                    <div>
+                        <div id="color-container" >
+                            <span id="picker-text">Color Picker:</span>
+                            <input type="color" id="color-picker">
+                        </div>
+                        <div id="rainbow-mode"><span class="" id="txt">Rainbow mode</span></div>
+                    </div>
+                </div>
+                <div id="range-container">
+                    <label for="range-bar" id="range-value">16 x 16</label>
+                    <input type="range" id="range-bar" value="16" min="1" max="64">
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>
