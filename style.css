@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    margin:30px auto;
+    width: 70%;
+    height: 950px;
+    max-width: 70%;
+    border: 10px solid #000000;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    background-color: #5e5556;
+}
+
+header{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: -30px;
+    max-width: 100%;
+    min-width: 50%;
+    padding: 5px 10px 0 10px;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+}
+
+#grid-container{
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto 20px auto;
+    width: 80%;
+    height: 500px;
+    border: 7px solid #000;
+    border-radius: 2%;
+    background-color: #fff;
+}
+
+.row{
+    display: flex;
+    flex: 1;
+}
+
+.column{
+    border: 1px solid rgb(243,239,239);
+    flex: 1;
+}
+
+#tools-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#buttons-container{
+    display: flex;
+    gap: 15px;
+    max-width: 100%;
+    overflow: hidden;
+    margin-left: 60px;
+    padding: 20px;
+}
+
+#eraser-button,#clear-button{
+    margin-top: 5px;
+    border: 10px double #000;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #739086;
+}
+
+#color-container{
+    margin-top: 30px;
+    margin-bottom: -20px;
+    width: 100px;
+    height: 80px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #739086;
+}
+
+#picker-text,#color-picer,#txt,.text{
+    display: inline-block;
+}
+
+#picker-text{
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+#color-picker{
+    margin: 3px 3px 0 28px;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#rainbow-mode{
+   border: 5px solid #739086;
+   width: 107px;
+   height: 107px;
+   border-radius: 50%;
+   margin-top: 30px;
+   background-color: #739086;
+}
+
+#txt{
+    margin: 33px 30px 0 20px;
+}
+
+.text{
+    margin: 35px 30px 0 25px;
+}
+
+#range-container{
+    margin-top: 120px;
+    margin-right: 50px;
+}
+
+#range-value{
+    display: block;
+    margin-left: 40px;
+
+}
+
+input[type="range"]{
+    accent-color: #000;
+}
+
+.glow{
+    box-shadow: 0px 0px 10px #b3b3cc;
+}
